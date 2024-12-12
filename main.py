@@ -21,7 +21,7 @@ db = client["image_storage"]
 fs = gridfs.GridFS(db)
 
 # Cloud Domain (Replace this with your actual cloud domain)
-CLOUD_DOMAIN = "http://localhost:8000"  # Replace with your actual domain
+CLOUD_DOMAIN = "https://greedy-adventure-images-backend.onrender.com"  # Replace with your actual domain
 
 # Utility function to generate public URLs for images stored in GridFS
 def get_image_url(file_id: ObjectId):
